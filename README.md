@@ -4,11 +4,11 @@
 
 CodeceptJS Soap helper.
 
-NPM package: <https://www.npmjs.com/package/codeceptjs-Soap-Helper>
+NPM package: <https://www.npmjs.com/package/codeceptjs-soap-helper>
 
 ## Installation
 
-`npm i codeceptjs-Soap-Helper --save-dev`
+`npm i codeceptjs-soap-helper --save-dev`
 
 ## Configuration
 
@@ -21,7 +21,7 @@ Example:
 ...
    helpers: {
      SoapHelper: {
-      require: 'codeceptjs-Soap-Helper',
+      require: 'codeceptjs-soap-helper',
       endpoint: 'http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso'
     }
    }
