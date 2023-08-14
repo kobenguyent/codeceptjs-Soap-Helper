@@ -1,5 +1,5 @@
 {
-  "name": "codeceptjs-Soap-Helper",
+  "name": "codeceptjs-soap-helper",
   "version": "1.0.0",
   "description": "Soap Helper for Codeceptjs",
   "main": "dist/index.js",
@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kobenguyent/codeceptjs-Soap-Helper.git"
+    "url": "git@github.com:kobenguyent/codeceptjs-soap-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/kobenguyent/codeceptjs-Soap-Helper/issues"
+    "url": "https://github.com/kobenguyent/codeceptjs-soap-helper/issues"
   },
-  "homepage": "https://github.com/kobenguyent/codeceptjs-Soap-Helper#readme",
+  "homepage": "https://github.com/kobenguyent/codeceptjs-soap-helper#readme",
   "author": "kobenguyent",
   "lint-staged": {
     "src": "rome format src --write"
