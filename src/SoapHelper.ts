@@ -115,7 +115,7 @@ class SOAP extends Helper {
     const _debugRequest = { ...request };
     this.axios.defaults.timeout = request.timeout || this.options.timeout;
 
-    if (this.headers && this.headers.auth) {
+    if (this.headers?.auth) {
       request.auth = this.headers.auth;
     }
 
