@@ -2,7 +2,7 @@ const I: CodeceptJS.I = inject().I;
 
 Feature('SOAP testing');
 
-Scenario('Number conversion service', async () => {
+Scenario('List of continents by name service', async () => {
   const res = await I.sendSoapRequest('http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso', `<?xml version="1.0" encoding="utf-8"?>
 <soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
   <soap12:Body>
